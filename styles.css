@@ -1,0 +1,90 @@
+body {
+    font-family: 'Gowun Dodum', sans-serif; /* Verwendet die Schriftart 'Gowun Dodum' für den Text im gesamten Dokument */
+    margin: 0; /* Setzt den Außenabstand des Body-Elements auf 0, um Abstand zu entfernen */
+    background-color: #e7f1ff; /* Setzt die Hintergrundfarbe des Body-Elements auf ein blasses Blau (#e7f1ff) */
+}
+
+.main {
+    display: flex; /* Verwendet das Flexbox-Layout für das Hauptelement, um die darin enthaltenen Elemente horizontal anzuordnen */
+}
+
+.menu {
+    background-color: white; /* Setzt die Hintergrundfarbe des Menüs auf Weiß */
+    position: fixed; /* Setzt die Position des Menüs auf fest, um es an einer bestimmten Position zu fixieren */
+    left: 0; /* Setzt den linken Rand des Menüs auf 0 */
+    right: 0; /* Setzt den rechten Rand des Menüs auf 0 */
+    top: 0; /* Setzt den oberen Rand des Menüs auf 0 */
+    height: 80px; /* Setzt die Höhe des Menüs auf 80 Pixel */
+    padding-left: 50px; /* Setzt den linken Innenabstand des Menüs auf 50 Pixel */
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2); /* Fügt dem Menü einen leichten Schatten hinzu */
+    display: flex; /* Verwendet das Flexbox-Layout für das Menü, um die darin enthaltenen Elemente horizontal anzuordnen */
+    align-items: center; /* Zentriert die Elemente vertikal im Menü */
+    justify-content: center; /* Zentriert die Elemente horizontal im Menü */
+}
+
+.menu a {
+    text-decoration: none; /* Entfernt die Unterstreichung von Links */
+    display: flex; /* Verwendet das Flexbox-Layout für die Links, um die darin enthaltenen Elemente horizontal anzuordnen */
+    margin-top: 8px; /* Setzt den oberen Außenabstand der Links auf 8 Pixel */
+    color: darkred; /* Setzt die Textfarbe der Links auf Dunkelrot */
+    align-items: center; /* Zentriert die Elemente vertikal in den Links */
+    padding: 8px; /* Setzt den Innenabstand der Links auf 8 Pixel */
+}
+
+.menu a:hover {
+    text-decoration: underline; /* Fügt eine Unterstreichung hinzu, wenn der Mauszeiger über den Links schwebt */
+}
+
+.sitename {
+    margin-top: 100px; /* Setzt den oberen Außenabstand des sitename-Elements auf 100 Pixel */
+    display: block; /* Ändert das sitename-Element zu einem Blockelement, um die darin enthaltenen Elemente vertikal anzuordnen */
+    justify-content: center; /* Zentriert die Elemente horizontal im sitename-Element */
+    align-items: center; /* Zentriert die Elemente vertikal im sitename-Element */
+}
+
+.formular {
+    display: flex; /* Verwendet das Flexbox-Layout für das Formular, um die darin enthaltenen Elemente horizontal anzuordnen */
+    align-items: center; /* Zentriert die Elemente vertikal im Formular */
+    justify-content: center; /* Zentriert die Elemente horizontal im Formular */
+}
+
+.fehler {
+    color: red; /* Setzt die Textfarbe der Fehlermeldung auf Rot */
+}
+
+.fehlertext {
+    display: flex; /* Verwendet das Flexbox-Layout für die Fehlermeldung, um die darin enthaltenen Elemente horizontal anzuordnen */
+    align-items: center; /* Zentriert die Elemente vertikal in der Fehlermeldung */
+    justify-content: center; /* Zentriert die Elemente horizontal in der Fehlermeldung */
+}
+
+a {
+    color: darkred; /* Setzt die Textfarbe der Links auf Dunkelrot */
+    text-decoration: none; /* Entfernt die Unterstreichung von Links */
+}
+
+a:hover {
+    text-decoration: underline; /* Fügt eine Unterstreichung hinzu, wenn der Mauszeiger über den Links schwebt */
+}
+
+.content {
+    margin-top: 80px; /* Setzt den oberen Außenabstand des Inhaltsbereichs auf 80 Pixel */
+    padding: 16px; /* Setzt den Innenabstand des Inhaltsbereichs auf 16 Pixel */
+    margin-left: 16px; /* Setzt den linken Außenabstand des Inhaltsbereichs auf 16 Pixel */
+}
+
+.kategorieschrift {
+    text-align: center; /* Zentriert den Text horizontal im Element kategorieschrift */
+}
+
+.sitename h1,
+h3,
+a {
+    display: flex; /* Verwendet das Flexbox-Layout für die Überschriften und Links, um die darin enthaltenen Elemente horizontal anzuordnen */
+    align-items: center; /* Zentriert die Elemente vertikal in den Überschriften und Links */
+    justify-content: center; /* Zentriert die Elemente horizontal in den Überschriften und Links */
+}
+
+.sitename a {
+    font-size: large; /* Setzt die Schriftgröße der Links im sitename-Element auf groß */
+}
