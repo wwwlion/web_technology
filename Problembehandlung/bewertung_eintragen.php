@@ -1,7 +1,7 @@
-//HTML-Markup für die Seite, einschließlich des head-Tags und des CSS-Links sowie die Navigationsleiste
+<!--HTML-Markup für die Seite, einschließlich des head-Tags und des CSS-Links sowie die Navigationsleiste--!>
 <html>
 <head>
-    <link rel="stylesheet" href="../styles.css">
+    <link rel="stylesheet" href="styles_behandlung.css">
 </head>
 <body>
 <div class="main">
@@ -10,7 +10,7 @@
         <a href="../Login/login.php">Login</a> <!-- Link zur Login-Seite -->
     </div>
 </div>
-//PHP-Logik, Sitzung (Session) gestartet und eine Verbindung zur Datenbank hergestellt. Dann Werte der Variablen $id und $bewertung aus dem POST-Array geholt
+<!--PHP-Logik, Sitzung (Session) gestartet und eine Verbindung zur Datenbank hergestellt. Dann Werte der Variablen $id und $bewertung aus dem POST-Array geholt--!>
 <?php
 session_start();
 $db = mysqli_connect("localhost", "root", "");

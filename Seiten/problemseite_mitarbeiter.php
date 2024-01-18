@@ -25,12 +25,12 @@ switch ($kategorienum) {
 <head>
     <meta charset="UTF-8">
     <title>Problemseite - Mitarbeiter</title>
-    <link rel="stylesheet" href="../styles.css">
+    <link rel="stylesheet" href="styles_seiten.css">
 </head>
 <body>
 <div class="main">
     <div class="menu">
-        <a href="../index.html">Start</a>
+        <a href="../Index/index.html">Start</a>
         <a href="../Login/login.php">Login</a>
         <a href="welcome_mitarbeiter.php">Kategorien</a>
     </div>

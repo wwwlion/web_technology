@@ -1,11 +1,11 @@
 <html>
 <head>
-    <link rel="stylesheet" href="../styles.css">
+    <link rel="stylesheet" href="../Register/styles_register.css">
 </head>
 <body>
 <div class="main">
     <div class="menu">
-        <a href="../index.html">Start</a> <!-- Link zur Startseite -->
+        <a href="../Index/index.html">Start</a> <!-- Link zur Startseite -->
         <a href="../Login/login.php">Login</a> <!-- Link zur Login-Seite -->
         <a href="../Seiten/welcome_kunde.php">Kategorien</a> <!-- Link zu den Kategorien im Forum -->
     </div>

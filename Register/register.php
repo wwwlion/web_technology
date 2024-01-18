@@ -2,40 +2,42 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Register</title>
-    <link rel="stylesheet" href="../styles.css">
+    <link rel="stylesheet" href="styles_register.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Gowun+Dodum&display=swap');
+    </style>
 </head>
 <body>
-<!-- Menu Link -->
+
 <div class="main">
     <div class="menu">
-        <a href="../index.html">Start</a>
+        <a href="../Index/index.html">Start</a>
         <a href="../Login/login.php">Login</a>
     </div>
 </div>
-<!-- Anzeigen des Seitennamens -->
+
 <div class="sitename">
-    <h1>Register Site</h1>
+    <h1>Registrierung</h1>
 </div>
 
 <div class="formular">
-    <!-- Öffnen der Tabelle -->
-    <table border="1">
-        <th>Registrieren</th>
+    <table border="0">
         <tr>
             <td>
-                <!-- Öffnen des Formulars mit action zur Registrierung -->
                 <form method="get" action="registerlogic.php">
-                    Ihr Username: <br>
-                    <input required type="text" name="name"> <br> <br>
-                    Ihr Passwort: <br>
-                    <input required type="password" name="passwort"> <br> <br>
-                    <!-- Check ob Mitarbeiter -->
-                    <label>
-                        <input type="radio" name="employeecheck">Mitarbeiter
+                    <label for="username">Ihr Benutzername:</label> <br>
+                    <input required type="text" id="username" name="name"> <br> <br>
+                    <label for="password">Ihr Passwort:</label> <br>
+                    <input required type="password" id="password" name="passwort"> <br> <br>
+                    <label for="employeecheck">
+                        <select id="employeecheck" name="employeecheck">
+                            <option value="no">Kein Mitarbeiter</option>
+                            <option value="yes">Mitarbeiter</option>
+                        </select>
                     </label>
                     <br> <br>
-                    <!-- Abschicken zur Verarbeitung -->
                     <input type="submit" value="Registrieren">
                 </form>
             </td>

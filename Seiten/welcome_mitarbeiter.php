@@ -7,12 +7,12 @@ session_start(); // Start der Sitzung, um auf Sitzungsvariablen zugreifen zu kö
 <head>
     <meta charset="UTF-8">
     <title>Willkommen</title>
-    <link rel="stylesheet" href="../styles.css"> <!-- Einbindung eines Stylesheets -->
+    <link rel="stylesheet" href="styles_seiten.css"> <!-- Einbindung eines Stylesheets -->
 </head>
 <body>
 <div class="main">
     <div class="menu">
-        <a href="../index.html">Start</a> <!-- Link zur Startseite -->
+        <a href="../Index/index.html">Start</a> <!-- Link zur Startseite -->
         <a href="../Register/register.php">Registrieren</a> <!-- Link zur Registrierungsseite -->
         <a href="../Login/login.php">Login</a> <!-- Link zur Login-Seite -->
     </div>

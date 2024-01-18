@@ -9,12 +9,12 @@ $user = $_SESSION["anmeldename"];
 <head>
     <meta charset="UTF-8">
     <title>Willkommen</title>
-    <link rel="stylesheet" href="../styles.css">
+    <link rel="stylesheet" href="styles_seiten.css">
 </head>
 <body>
 <div class="main">
     <div class="menu">
-        <a href="../index.html">Start</a>
+        <a href="../Index/index.html">Start</a>
         <a href="../Register/register.php">Registrieren</a>
         <a href="../Login/login.php">Login</a>
     </div>

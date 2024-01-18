@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="ea7744a7-b1f1-4af9-91b2-68c4652c89ce" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Index/styles_index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Login/styles_login.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Problembehandlung/styles_behandlung.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Seiten/styles_seiten.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Login/login.php" beforeDir="false" afterPath="$PROJECT_DIR$/Login/login.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problembehandlung/bewertung_eintragen.php" beforeDir="false" afterPath="$PROJECT_DIR$/Problembehandlung/bewertung_eintragen.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problembehandlung/neuesproblem.php" beforeDir="false" afterPath="$PROJECT_DIR$/Problembehandlung/neuesproblem.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problembehandlung/newproblem.html" beforeDir="false" afterPath="$PROJECT_DIR$/Problembehandlung/newproblem.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problembehandlung/problem_read.php" beforeDir="false" afterPath="$PROJECT_DIR$/Problembehandlung/problem_read.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Problembehandlung/problem_replay.php" beforeDir="false" afterPath="$PROJECT_DIR$/Problembehandlung/problem_replay.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Register/register.php" beforeDir="false" afterPath="$PROJECT_DIR$/Register/register.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Seiten/problemseite_kunde.php" beforeDir="false" afterPath="$PROJECT_DIR$/Seiten/problemseite_kunde.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Seiten/problemseite_mitarbeiter.php" beforeDir="false" afterPath="$PROJECT_DIR$/Seiten/problemseite_mitarbeiter.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Seiten/welcome_kunde.php" beforeDir="false" afterPath="$PROJECT_DIR$/Seiten/welcome_kunde.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Seiten/welcome_mitarbeiter.php" beforeDir="false" afterPath="$PROJECT_DIR$/Seiten/welcome_mitarbeiter.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Index/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/Register/styles_register.css" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="PhpDebugGeneral" listening_started="true" />
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP" />
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
+  <component name="ProjectId" id="2aU5CqGaZPpp8OSiZUgMIw8Hi4E" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "PHP Script.create_problemtable.php.executor": "Run",
+    "PHP Script.login.php.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "main",
+    "list.type.of.created.stylesheet": "CSS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Index" />
+      <recent name="$PROJECT_DIR$/Register" />
+    </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-php-predefined-ba97393d7c68-b4dcf6bb9de9-com.jetbrains.php.sharedIndexes-PS-233.13135.108" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ea7744a7-b1f1-4af9-91b2-68c4652c89ce" name="Changes" comment="" />
+      <created>1704360192939</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1704360192939</updated>
+      <workItem from="1704360194003" duration="329000" />
+      <workItem from="1705395203350" duration="427000" />
+      <workItem from="1705568388553" duration="8000" />
+      <workItem from="1705568425577" duration="6000" />
+      <workItem from="1705569850654" duration="364000" />
+      <workItem from="1705570364831" duration="483000" />
+      <workItem from="1705570914171" duration="8009000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+</project>

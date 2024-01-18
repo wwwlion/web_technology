@@ -1,12 +1,12 @@
 <html>
 <head>
-    <link rel="stylesheet" href="../styles.css">
+    <link rel="stylesheet" href="styles_behandlung.css">
     <title>Problemforum - Antwort</title>
 </head>
 <body>
 <div class="main">
     <div class="menu">
-        <a href="../index.html">Start</a> <!-- Link zur Startseite -->
+        <a href="../Index/index.html">Start</a> <!-- Link zur Startseite -->
         <a href="../Login/login.php">Login</a> <!-- Link zur Login-Seite -->
         <a href="../Seiten/problemseite_kunde.php">Forum</a> <!-- Link zur Problemseite im Forum -->
     </div>

@@ -1,0 +1,124 @@
+/* styles_combined.css */
+
+body {
+    font-family: 'Gowun Dodum', sans-serif;
+    margin: 0;
+    background-color: #f2f2f2;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 5vh;
+    background: #333;
+    color: #fff;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.menu a {
+    margin-left: 10px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.menu a:hover {
+    text-decoration: underline;
+}
+
+.sitename {
+    text-align: center;
+}
+
+.sitename h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+.fehlertext {
+    text-align: center;
+}
+
+.fehler {
+    color: red;
+}
+
+.center-table {
+    margin: 20px auto;
+}
+
+.formular {
+    max-width: 200px;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 4px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+.formular th {
+    font-size: 2em;
+    display: flex;
+    padding: 20px;
+    text-align: center;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: flex;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.form-group input[type="text"],
+.form-group input[type="password"],
+.form-group select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 2px solid #ddd;
+    border-radius: 4px;
+    transition: border-color 0.3s ease;
+    box-sizing: border-box;
+}
+
+.form-group input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: #008080;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.form-group input[type="submit"]:hover {
+    background-color: #006666;
+}
+
+.input-radio {
+    margin-right: 5px;
+}
+
+.form-group input[type="text"]:focus,
+.form-group input[type="password"]:focus,
+.form-group select:focus {
+    border-color: #008080;
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 128, 128, 0.5);
+}
+
+@media (max-width: 768px) {
+    .main {
+        width: 95%;
+    }
+}
