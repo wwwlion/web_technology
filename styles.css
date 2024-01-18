@@ -1,90 +1,93 @@
 body {
-    font-family: 'Gowun Dodum', sans-serif; /* Verwendet die Schriftart 'Gowun Dodum' für den Text im gesamten Dokument */
-    margin: 0; /* Setzt den Außenabstand des Body-Elements auf 0, um Abstand zu entfernen */
-    background-color: #e7f1ff; /* Setzt die Hintergrundfarbe des Body-Elements auf ein blasses Blau (#e7f1ff) */
+    font-family: 'Gowun Dodum', sans-serif;
+    margin: 0;
+    background-color: #f2f2f2;
 }
 
-.main {
-    display: flex; /* Verwendet das Flexbox-Layout für das Hauptelement, um die darin enthaltenen Elemente horizontal anzuordnen */
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
 }
 
-.menu {
-    background-color: white; /* Setzt die Hintergrundfarbe des Menüs auf Weiß */
-    position: fixed; /* Setzt die Position des Menüs auf fest, um es an einer bestimmten Position zu fixieren */
-    left: 0; /* Setzt den linken Rand des Menüs auf 0 */
-    right: 0; /* Setzt den rechten Rand des Menüs auf 0 */
-    top: 0; /* Setzt den oberen Rand des Menüs auf 0 */
-    height: 80px; /* Setzt die Höhe des Menüs auf 80 Pixel */
-    padding-left: 50px; /* Setzt den linken Innenabstand des Menüs auf 50 Pixel */
-    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2); /* Fügt dem Menü einen leichten Schatten hinzu */
-    display: flex; /* Verwendet das Flexbox-Layout für das Menü, um die darin enthaltenen Elemente horizontal anzuordnen */
-    align-items: center; /* Zentriert die Elemente vertikal im Menü */
-    justify-content: center; /* Zentriert die Elemente horizontal im Menü */
+.header {
+    background: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
 }
 
-.menu a {
-    text-decoration: none; /* Entfernt die Unterstreichung von Links */
-    display: flex; /* Verwendet das Flexbox-Layout für die Links, um die darin enthaltenen Elemente horizontal anzuordnen */
-    margin-top: 8px; /* Setzt den oberen Außenabstand der Links auf 8 Pixel */
-    color: darkred; /* Setzt die Textfarbe der Links auf Dunkelrot */
-    align-items: center; /* Zentriert die Elemente vertikal in den Links */
-    padding: 8px; /* Setzt den Innenabstand der Links auf 8 Pixel */
+.navigation {
+    background: #444;
+    text-align: center;
+    padding: 10px 0;
 }
 
-.menu a:hover {
-    text-decoration: underline; /* Fügt eine Unterstreichung hinzu, wenn der Mauszeiger über den Links schwebt */
+.navigation a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    display: inline-block;
 }
 
-.sitename {
-    margin-top: 100px; /* Setzt den oberen Außenabstand des sitename-Elements auf 100 Pixel */
-    display: block; /* Ändert das sitename-Element zu einem Blockelement, um die darin enthaltenen Elemente vertikal anzuordnen */
-    justify-content: center; /* Zentriert die Elemente horizontal im sitename-Element */
-    align-items: center; /* Zentriert die Elemente vertikal im sitename-Element */
+.navigation a:hover {
+    background-color: #555;
 }
 
-.formular {
-    display: flex; /* Verwendet das Flexbox-Layout für das Formular, um die darin enthaltenen Elemente horizontal anzuordnen */
-    align-items: center; /* Zentriert die Elemente vertikal im Formular */
-    justify-content: center; /* Zentriert die Elemente horizontal im Formular */
+.registration-form {
+    background: white;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+    max-width: 400px; /* Maximale Breite des Formulars */
+    margin: 20px auto; /* Zentriert das Formular */
 }
 
-.fehler {
-    color: red; /* Setzt die Textfarbe der Fehlermeldung auf Rot */
+.form-group {
+    margin-bottom: 15px;
 }
 
-.fehlertext {
-    display: flex; /* Verwendet das Flexbox-Layout für die Fehlermeldung, um die darin enthaltenen Elemente horizontal anzuordnen */
-    align-items: center; /* Zentriert die Elemente vertikal in der Fehlermeldung */
-    justify-content: center; /* Zentriert die Elemente horizontal in der Fehlermeldung */
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
 }
 
-a {
-    color: darkred; /* Setzt die Textfarbe der Links auf Dunkelrot */
-    text-decoration: none; /* Entfernt die Unterstreichung von Links */
+.form-group input[type="text"],
+.form-group input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
 }
 
-a:hover {
-    text-decoration: underline; /* Fügt eine Unterstreichung hinzu, wenn der Mauszeiger über den Links schwebt */
+.form-group input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: #008080;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
 }
 
-.content {
-    margin-top: 80px; /* Setzt den oberen Außenabstand des Inhaltsbereichs auf 80 Pixel */
-    padding: 16px; /* Setzt den Innenabstand des Inhaltsbereichs auf 16 Pixel */
-    margin-left: 16px; /* Setzt den linken Außenabstand des Inhaltsbereichs auf 16 Pixel */
+.form-group input[type="submit"]:hover {
+    background-color: #006666;
 }
 
-.kategorieschrift {
-    text-align: center; /* Zentriert den Text horizontal im Element kategorieschrift */
+input[type="radio"] {
+    margin-right: 5px;
 }
 
-.sitename h1,
-h3,
-a {
-    display: flex; /* Verwendet das Flexbox-Layout für die Überschriften und Links, um die darin enthaltenen Elemente horizontal anzuordnen */
-    align-items: center; /* Zentriert die Elemente vertikal in den Überschriften und Links */
-    justify-content: center; /* Zentriert die Elemente horizontal in den Überschriften und Links */
+input[type="text"]:focus, input[type="password"]:focus {
+    border-color: #008080;
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 128, 128, 0.5);
 }
 
-.sitename a {
-    font-size: large; /* Setzt die Schriftgröße der Links im sitename-Element auf groß */
+@media (max-width: 768px) {
+    .container {
+        width: 95%;
+    }
 }
