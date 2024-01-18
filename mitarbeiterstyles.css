@@ -1,0 +1,74 @@
+/* Grundlegende Einstellungen für den gesamten Körper */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #2a2a2a; /* Dunkelgrauer Hintergrund */
+    color: #ffffff; /* Weiße Schrift */
+    margin: 0;
+    padding: 0;
+}
+
+/* Design für die Haupt-Navigation */
+.main .menu {
+    background-color: #1a1a2e; /* Dunkelblauer Hintergrund */
+    padding: 10px 20px;
+    text-align: center;
+}
+
+.main .menu a {
+    color: #e0e1dd; /* Helles Grau für Text */
+    text-decoration: none;
+    padding: 5px 10px;
+    margin: 0 5px;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+.main .menu a:hover {
+    background-color: #0f3460; /* Dunkleres Blau beim Hover */
+}
+
+/* Design für den Inhaltsteil */
+.content {
+    padding: 20px;
+    background-color: #16213e; /* Dunkles Blau für den Inhaltsbereich */
+    margin-top: 10px;
+}
+
+.kategorieschrift h4 {
+    color: #e0e1dd; /* Helles Grau für Überschriften */
+}
+
+/* Design für die Tabelle */
+.beitragstabelle {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.beitragstabelle th, .beitragstabelle td {
+    text-align: left;
+    padding: 8px;
+    border-bottom: 1px solid #4ecca3; /* Kontrastfarbe für Tabellenlinien */
+}
+
+.beitragstabelle th {
+    background-color: #0f3460; /* Dunkelblau für Kopfzeilen */
+    color: #e0e1dd;
+}
+
+.beitragstabelle tr:nth-child(even) {
+    background-color: #1a1a2e; /* Alternierender Zeilenhintergrund */
+}
+
+/* Responsivität (optional) */
+@media screen and (max-width: 600px) {
+    .main .menu a {
+        display: block;
+        margin-bottom: 10px;
+    }
+
+    .beitragstabelle {
+        width: 100%;
+        display: block;
+        overflow-x: auto;
+    }
+}

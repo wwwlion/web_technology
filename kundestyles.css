@@ -1,0 +1,47 @@
+/* Erweitertes CSS für die zusätzlichen Elemente */
+
+/* Stil für die Überschriften */
+.kategorieschrift h2 {
+    color: #e0e1dd;
+    text-align: center;
+    padding: 10px 0;
+}
+
+/* Anpassung des Tabellendesigns */
+table {
+    border: 1px solid #0f3460; /* Dunkelblaue Rahmenfarbe */
+    margin: auto; /* Zentrierung der Tabelle */
+    width: 80%; /* Breitenanpassung */
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #4ecca3; /* Kontrastfarbe für Zeilen */
+}
+
+a {
+    color: #4ecca3; /* Kontrastfarbe für Links */
+    text-decoration: none;
+}
+
+a:hover {
+    color: #0f3460;
+}
+
+/* Design für den Link zum Erstellen neuer Probleme */
+.content a {
+    display: block;
+    width: max-content;
+    margin: 20px auto;
+    padding: 10px;
+    background-color: #0f3460;
+    color: #ffffff;
+    text-align: center;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.content a:hover {
+    background-color: #4ecca3;
+}
