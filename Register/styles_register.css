@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 /* styles_combined.css */
 
 body {
@@ -122,3 +123,155 @@ body {
         width: 95%;
     }
 }
+=======
+@ -1,90 +1,103 @@
+/* Allgemeine Stile für den Body */
+body {
+    font-family: 'Gowun Dodum', sans-serif; /* Verwendet die Schriftart 'Gowun Dodum' für den Text im gesamten Dokument */
+    margin: 0; /* Setzt den Außenabstand des Body-Elements auf 0, um Abstand zu entfernen */
+    background-color: #e7f1ff; /* Setzt die Hintergrundfarbe des Body-Elements auf ein blasses Blau (#e7f1ff) */
+    font-family: 'Gowun Dodum', sans-serif;
+    margin: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Stile für das Hauptelement */
+.main {
+    display: flex; /* Verwendet das Flexbox-Layout für das Hauptelement, um die darin enthaltenen Elemente horizontal anzuordnen */
+    display: flex;
+}
+
+/* Stile für das Menü */
+.menu {
+    background-color: white; /* Setzt die Hintergrundfarbe des Menüs auf Weiß */
+    position: fixed; /* Setzt die Position des Menüs auf fest, um es an einer bestimmten Position zu fixieren */
+    left: 0; /* Setzt den linken Rand des Menüs auf 0 */
+    right: 0; /* Setzt den rechten Rand des Menüs auf 0 */
+    top: 0; /* Setzt den oberen Rand des Menüs auf 0 */
+    height: 80px; /* Setzt die Höhe des Menüs auf 80 Pixel */
+    padding-left: 50px; /* Setzt den linken Innenabstand des Menüs auf 50 Pixel */
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2); /* Fügt dem Menü einen leichten Schatten hinzu */
+    display: flex; /* Verwendet das Flexbox-Layout für das Menü, um die darin enthaltenen Elemente horizontal anzuordnen */
+    align-items: center; /* Zentriert die Elemente vertikal im Menü */
+    justify-content: center; /* Zentriert die Elemente horizontal im Menü */
+    background-color: #fff;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    height: 80px;
+    padding: 0 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menu a {
+    text-decoration: none; /* Entfernt die Unterstreichung von Links */
+    display: flex; /* Verwendet das Flexbox-Layout für die Links, um die darin enthaltenen Elemente horizontal anzuordnen */
+    margin-top: 8px; /* Setzt den oberen Außenabstand der Links auf 8 Pixel */
+    color: darkred; /* Setzt die Textfarbe der Links auf Dunkelrot */
+    align-items: center; /* Zentriert die Elemente vertikal in den Links */
+    padding: 8px; /* Setzt den Innenabstand der Links auf 8 Pixel */
+    text-decoration: none;
+    color: #333;
+    margin: 0 15px;
+    padding: 15px 10px;
+    border-bottom: 2px solid transparent;
+    transition: border-bottom 0.3s ease-in-out;
+}
+
+.menu a:hover {
+    text-decoration: underline; /* Fügt eine Unterstreichung hinzu, wenn der Mauszeiger über den Links schwebt */
+    border-bottom: 2px solid darkred;
+}
+
+/* Stile für den sitename */
+.sitename {
+    margin-top: 100px; /* Setzt den oberen Außenabstand des sitename-Elements auf 100 Pixel */
+    display: block; /* Ändert das sitename-Element zu einem Blockelement, um die darin enthaltenen Elemente vertikal anzuordnen */
+    justify-content: center; /* Zentriert die Elemente horizontal im sitename-Element */
+    align-items: center; /* Zentriert die Elemente vertikal im sitename-Element */
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Stile für das Formular */
+.formular {
+    display: flex; /* Verwendet das Flexbox-Layout für das Formular, um die darin enthaltenen Elemente horizontal anzuordnen */
+    align-items: center; /* Zentriert die Elemente vertikal im Formular */
+    justify-content: center; /* Zentriert die Elemente horizontal im Formular */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Stile für Fehlermeldungen */
+.fehler {
+    color: red; /* Setzt die Textfarbe der Fehlermeldung auf Rot */
+    color: red;
+}
+
+.fehlertext {
+    display: flex; /* Verwendet das Flexbox-Layout für die Fehlermeldung, um die darin enthaltenen Elemente horizontal anzuordnen */
+    align-items: center; /* Zentriert die Elemente vertikal in der Fehlermeldung */
+    justify-content: center; /* Zentriert die Elemente horizontal in der Fehlermeldung */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Stile für Links allgemein */
+a {
+    color: darkred; /* Setzt die Textfarbe der Links auf Dunkelrot */
+    text-decoration: none; /* Entfernt die Unterstreichung von Links */
+    color: darkred;
+    text-decoration: none;
+    transition: color 0.3s ease-in-out;
+}
+
+a:hover {
+    text-decoration: underline; /* Fügt eine Unterstreichung hinzu, wenn der Mauszeiger über den Links schwebt */
+    color: #333;
+}
+
+/* Stile für den Inhaltsbereich */
+.content {
+    margin-top: 80px; /* Setzt den oberen Außenabstand des Inhaltsbereichs auf 80 Pixel */
+    padding: 16px; /* Setzt den Innenabstand des Inhaltsbereichs auf 16 Pixel */
+    margin-left: 16px; /* Setzt den linken Außenabstand des Inhaltsbereichs auf 16 Pixel */
+    margin-top: 80px;
+    padding: 40px;
+}
+
+/* Stile für die Kategorieschrift */
+.kategorieschrift {
+    text-align: center; /* Zentriert den Text horizontal im Element kategorieschrift */
+    text-align: center;
+    color: darkred;
+}
+
+/* Stile für Überschriften und Links im sitename */
+.sitename h1,
+h3,
+a {
+    display: flex; /* Verwendet das Flexbox-Layout für die Überschriften und Links, um die darin enthaltenen Elemente horizontal anzuordnen */
+    align-items: center; /* Zentriert die Elemente vertikal in den Überschriften und Links */
+    justify-content: center; /* Zentriert die Elemente horizontal in den Überschriften und Links */
+    .sitename h3,
+    .sitename a {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    /* Schriftgröße für Links im sitename */
+    .sitename a {
+        font-size: large; /* Setzt die Schriftgröße der Links im sitename-Element auf groß */
+        font-size: 1.2em;
+    }
+>>>>>>> Stashed changes
