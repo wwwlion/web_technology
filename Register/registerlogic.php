@@ -5,6 +5,7 @@ $db = mysqli_connect("localhost", "root", "", "projektaufgabe");
 // Holen der übergebenen Variablen
 $registername = $_GET["name"];
 $registerpassword = $_GET["passwort"];
+$registerfirma = $_GET["firma"];
 
 // Prüfen ob Mitarbeiter oder nicht
 if (isset($_GET["employeecheck"])) {

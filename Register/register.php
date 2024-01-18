@@ -14,7 +14,7 @@
 <div class="main">
     <div class="menu">
         <a href="../Index/index.html">Start</a>
-        <a href="../Login/login.php">Login</a>
+        <!--<a href="../Login/login.php">Login</a>--!>
     </div>
 </div>
 
@@ -31,6 +31,8 @@
                     <input required type="text" id="username" name="name"> <br> <br>
                     <label for="password">Ihr Passwort:</label> <br>
                     <input required type="password" id="password" name="passwort"> <br> <br>
+                    <label for="firma">Ihre Firma:</label> <br>
+                    <input required type="text" id="firma" name="firma"> <br> <br>
                     <label for="employeecheck">
                         <select id="employeecheck" name="employeecheck">
                             <option value="no">Kein Mitarbeiter</option>

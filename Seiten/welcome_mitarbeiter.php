@@ -18,7 +18,7 @@ session_start(); // Start der Sitzung, um auf Sitzungsvariablen zugreifen zu kö
     </div>
 
     <div class="content">
-        <h2>Willkommen, Mitarbeiter <?php echo $_SESSION["anmeldename"]; ?></h2> <!-- Anzeige des Mitarbeiternamens aus der Sitzungsvariablen -->
+        <h2>Willkommen, Mitarbeiter <?php echo $_SESSION["anmeldename"];?> von  <?php echo$firma = $_SESSION["firma"]; ?></h2> <!-- Anzeige des Mitarbeiternamens aus der Sitzungsvariablen -->
 
         <div class="katlinks">
             <h4>Bitte wählen Sie eine Kategorie:</h4>

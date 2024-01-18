@@ -14,7 +14,7 @@
 <div class="main">
     <div class="menu">
         <a href="../Index/index.html">Start</a>
-        <a href="../Register/register.php">Registrieren</a>
+        <!--<a href="../Register/register.php">Registrieren</a>--!>
     </div>
 </div>
 

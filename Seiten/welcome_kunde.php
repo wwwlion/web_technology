@@ -2,6 +2,7 @@
 session_start();
 $db = mysqli_connect("localhost", "root", "", "Projektaufgabe");
 $user = $_SESSION["anmeldename"];
+$firma = $_SESSION["firma"];
 ?>
 
 <!DOCTYPE html>
@@ -20,7 +21,7 @@ $user = $_SESSION["anmeldename"];
     </div>
 
     <div class="content">
-        <h2>Willkommen, <?php echo $user; ?></h2>
+        <h2>Willkommen, <?php echo $user;?> von <?php echo $firma;?></h2>
 
         <?php
         // Abfrage aller Beiträge mit dem Bearbeitungsstatus 1

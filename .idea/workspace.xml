@@ -5,25 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ea7744a7-b1f1-4af9-91b2-68c4652c89ce" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Index/styles_index.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Login/styles_login.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Problembehandlung/styles_behandlung.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Seiten/styles_seiten.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Index/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Index/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Login/login.php" beforeDir="false" afterPath="$PROJECT_DIR$/Login/login.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Problembehandlung/bewertung_eintragen.php" beforeDir="false" afterPath="$PROJECT_DIR$/Problembehandlung/bewertung_eintragen.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Problembehandlung/neuesproblem.php" beforeDir="false" afterPath="$PROJECT_DIR$/Problembehandlung/neuesproblem.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Problembehandlung/newproblem.html" beforeDir="false" afterPath="$PROJECT_DIR$/Problembehandlung/newproblem.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Problembehandlung/problem_read.php" beforeDir="false" afterPath="$PROJECT_DIR$/Problembehandlung/problem_read.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Problembehandlung/problem_replay.php" beforeDir="false" afterPath="$PROJECT_DIR$/Problembehandlung/problem_replay.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Register/register.php" beforeDir="false" afterPath="$PROJECT_DIR$/Register/register.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Seiten/problemseite_kunde.php" beforeDir="false" afterPath="$PROJECT_DIR$/Seiten/problemseite_kunde.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Seiten/problemseite_mitarbeiter.php" beforeDir="false" afterPath="$PROJECT_DIR$/Seiten/problemseite_mitarbeiter.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Register/registerlogic.php" beforeDir="false" afterPath="$PROJECT_DIR$/Register/registerlogic.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Seiten/welcome_kunde.php" beforeDir="false" afterPath="$PROJECT_DIR$/Seiten/welcome_kunde.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Seiten/welcome_mitarbeiter.php" beforeDir="false" afterPath="$PROJECT_DIR$/Seiten/welcome_mitarbeiter.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Index/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/Register/styles_register.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tables/membertable.php" beforeDir="false" afterPath="$PROJECT_DIR$/Tables/membertable.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tables/mitarbeitertable.php" beforeDir="false" afterPath="$PROJECT_DIR$/Tables/mitarbeitertable.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,25 +46,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "PHP Script.create_problemtable.php.executor": "Run",
-    "PHP Script.login.php.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "main",
-    "list.type.of.created.stylesheet": "CSS",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;PHP Script.create_problemtable.php.executor&quot;: &quot;Run&quot;,
+    &quot;PHP Script.login.php.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/Index" />
@@ -103,6 +93,7 @@
       <workItem from="1705569850654" duration="364000" />
       <workItem from="1705570364831" duration="483000" />
       <workItem from="1705570914171" duration="8009000" />
+      <workItem from="1705579939812" duration="963000" />
     </task>
     <servers />
   </component>

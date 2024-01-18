@@ -9,12 +9,13 @@ $anfrage = "CREATE TABLE member (
     member_id INT NOT NULL AUTO_INCREMENT,
     memberusername VARCHAR(100),
     memberpassword VARCHAR(100),
+    memberfirma VARCHAR(100),
     PRIMARY KEY (member_id)
 )";
 mysqli_query($db, $anfrage);
 
 // Eintrag in die Tabelle "member" hinzufügen
-$anfrage = "INSERT INTO member (memberusername, memberpassword) VALUES ('firstmember', 'testing')";
+$anfrage = "INSERT INTO member (memberusername, memberpassword, memberfirma) VALUES ('firstmember', 'testing' , 'testing')";
 mysqli_query($db, $anfrage);
 
 mysqli_close($db);

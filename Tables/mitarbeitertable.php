@@ -6,6 +6,7 @@ $anfrage = "CREATE TABLE mitarbeiter (
     employe_id INT NOT NULL AUTO_INCREMENT,
     empusername VARCHAR(100),
     emppassword VARCHAR(100),
+    empfirma VARCHAR(100),
     PRIMARY KEY (employe_id)
 )";
 
