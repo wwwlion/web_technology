@@ -6,14 +6,20 @@
   <component name="ChangeListManager">
     <list default="true" id="ea7744a7-b1f1-4af9-91b2-68c4652c89ce" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Index/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Index/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Login/login.php" beforeDir="false" afterPath="$PROJECT_DIR$/Login/login.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Register/register.php" beforeDir="false" afterPath="$PROJECT_DIR$/Register/register.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Register/registerlogic.php" beforeDir="false" afterPath="$PROJECT_DIR$/Register/registerlogic.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Seiten/problemseite_kunde.php" beforeDir="false" afterPath="$PROJECT_DIR$/Seiten/problemseite_kunde.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Seiten/problemseite_mitarbeiter.php" beforeDir="false" afterPath="$PROJECT_DIR$/Seiten/problemseite_mitarbeiter.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Seiten/welcome_kunde.php" beforeDir="false" afterPath="$PROJECT_DIR$/Seiten/welcome_kunde.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Seiten/welcome_mitarbeiter.php" beforeDir="false" afterPath="$PROJECT_DIR$/Seiten/welcome_mitarbeiter.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tables/membertable.php" beforeDir="false" afterPath="$PROJECT_DIR$/Tables/membertable.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tables/mitarbeitertable.php" beforeDir="false" afterPath="$PROJECT_DIR$/Tables/mitarbeitertable.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/antworten.php" beforeDir="false" afterPath="$PROJECT_DIR$/Problembehandlung/antworten.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bearbeiten.php" beforeDir="false" afterPath="$PROJECT_DIR$/Problembehandlung/bearbeiten.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kundestyles.css" beforeDir="false" afterPath="$PROJECT_DIR$/Seiten/kundestyles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mitarbeiterstyles.css" beforeDir="false" afterPath="$PROJECT_DIR$/Seiten/mitarbeiterstyles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/problemseite_kunde.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/problemseite_mitarbeiter.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/welcome_kunde.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/welcome_mitarbeiter.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/welcomekundestyles.css" beforeDir="false" afterPath="$PROJECT_DIR$/Seiten/welcomekundestyles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/welcomemitarbeiterstyles.css" beforeDir="false" afterPath="$PROJECT_DIR$/Seiten/welcomemitarbeiterstyles.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,6 +73,8 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Problembehandlung" />
+      <recent name="$PROJECT_DIR$/Seiten" />
       <recent name="$PROJECT_DIR$/Index" />
       <recent name="$PROJECT_DIR$/Register" />
     </key>
@@ -93,7 +101,8 @@
       <workItem from="1705569850654" duration="364000" />
       <workItem from="1705570364831" duration="483000" />
       <workItem from="1705570914171" duration="8009000" />
-      <workItem from="1705579939812" duration="963000" />
+      <workItem from="1705579939812" duration="2089000" />
+      <workItem from="1705592228977" duration="178000" />
     </task>
     <servers />
   </component>

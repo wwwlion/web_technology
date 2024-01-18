@@ -24,12 +24,12 @@ mysqli_select_db($db,"projektaufgabe");
 
 <html>
 <head>
-    <link rel="stylesheet" href="styles_seiten.css">
+    <link rel="stylesheet" href="kundestyles.css">
 </head>
 <body>
 <div class="main">
     <div class="menu">
-        <a href="../Index/index.html">Start</a>
+        <a href="../index.html">Start</a>
         <a href="../Login/login.php">Login</a>
         <a href="welcome_kunde.php">Kategorien</a>
     </div>

@@ -2,7 +2,6 @@
 session_start();
 $db = mysqli_connect("localhost", "root", "", "Projektaufgabe");
 $user = $_SESSION["anmeldename"];
-$firma = $_SESSION["firma"];
 ?>
 
 <!DOCTYPE html>
@@ -10,18 +9,18 @@ $firma = $_SESSION["firma"];
 <head>
     <meta charset="UTF-8">
     <title>Willkommen</title>
-    <link rel="stylesheet" href="styles_seiten.css">
+    <link rel="stylesheet" href="welcomekundestyles.css">
 </head>
 <body>
 <div class="main">
     <div class="menu">
-        <a href="../Index/index.html">Start</a>
+        <a href="../index.html">Start</a>
         <a href="../Register/register.php">Registrieren</a>
         <a href="../Login/login.php">Login</a>
     </div>
 
     <div class="content">
-        <h2>Willkommen, <?php echo $user;?> von <?php echo $firma;?></h2>
+        <h2>Willkommen, <?php echo $user; ?></h2>
 
         <?php
         // Abfrage aller Beiträge mit dem Bearbeitungsstatus 1
@@ -50,9 +49,9 @@ $firma = $_SESSION["firma"];
 
         <div class="katlinks">
             <h4>Bitte wählen Sie eine Kategorie:</h4>
-            <a href="problemseite_kunde.php?k=0">Internet</a><br>
-            <a href="problemseite_kunde.php?k=1">Hardware</a><br>
-            <a href="problemseite_kunde.php?k=2">Software</a><br>
+            <a href="../problemseite_kunde.php?k=0">Internet</a><br>
+            <a href="../problemseite_kunde.php?k=1">Hardware</a><br>
+            <a href="../problemseite_kunde.php?k=2">Software</a><br>
         </div>
 
         <br><br>
