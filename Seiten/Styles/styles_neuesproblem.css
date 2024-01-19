@@ -1,0 +1,79 @@
+/* Grundlegende Einstellungen für den gesamten Körper */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #2a2a2a; /* Dunkelgrauer Hintergrund */
+    color: #ffffff; /* Weiße Schrift */
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+}
+
+/* Design für die Haupt-Navigation */
+.main .menu {
+    background-color: #1a1a2e; /* Dunkelblauer Hintergrund */
+    padding: 10px 20px;
+    text-align: center;
+    justify-content: center;
+}
+
+.main .menu a {
+    color: #e0e1dd; /* Helles Grau für Text */
+    text-decoration: none;
+    padding: 5px 10px;
+    margin: 0 5px;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+    justify-content: center;
+}
+
+.main .menu a:hover {
+    background-color: #0f3460; /* Dunkleres Blau beim Hover */
+}
+
+/* Design für den Inhaltsteil */
+.content {
+    padding: 20px;
+    background-color: #16213e; /* Dunkles Blau für den Inhaltsbereich */
+    margin-top: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    justify-content: center;
+
+
+}
+
+.content select {
+    height: 40px; /* Die Höhe nach Ihren Wünschen anpassen */
+}
+
+input[type="submit"] {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    padding: 6px;
+    font-size: 16px;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+    justify-content: center;
+}
+input[type="submit"]:hover {
+    background-color: #4ecca3;
+}
+
+    input[type="reset"] {
+        background-color: #007BFF;
+        color: #fff;
+        border: none;
+        cursor: pointer;
+        padding: 6px;
+        font-size: 16px;
+        border-radius: 4px;
+        transition: background-color 0.3s;
+        justify-content: center;
+    }
+    input[type="reset"]:hover {
+        background-color: #4ecca3;
+    }
+
+
+

@@ -24,7 +24,7 @@ mysqli_select_db($db,"projektaufgabe");
 
 <html>
 <head>
-    <link rel="stylesheet" href="kundestyles.css">
+    <link rel="stylesheet" href="Styles/kundestyles.css">
 </head>
 <body>
 <div class="main">
@@ -109,7 +109,7 @@ mysqli_select_db($db,"projektaufgabe");
         }
         ?>
         <br> <br>
-        <a href="../Problembehandlung/newproblem.html">Hier neues Problem einstellen</a>
+        <a href="../Problembehandlung/neuesproblem.html">Hier neues Problem einstellen</a>
 
 </div>
 </div>

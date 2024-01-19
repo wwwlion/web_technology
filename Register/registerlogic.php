@@ -8,7 +8,7 @@ $registerpassword = $_GET["passwort"];
 $registerfirma = $_GET["firma"];
 
 // Prüfen ob Mitarbeiter oder nicht
-if (isset($_GET["employeecheck"])) {
+if (isset($_GET["employeecheck"]) && $_GET["employeecheck"] == "yes") {
     // SQL-Anweisung zur Eintragung in die Tabelle "mitarbeiter"
     $statement = "INSERT INTO mitarbeiter (empusername, emppassword)
                   VALUES ('$registername', '$registerpassword')";

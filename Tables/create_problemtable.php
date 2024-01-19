@@ -1,11 +1,9 @@
 <?php
+// Datenbankverbindung
+$db = mysqli_connect("localhost", "root", "") or die("<b>Zur Zeit kein Connect zum Datenbankserver!</b>");
+mysqli_select_db($db, "projektaufgabe") or die("<b>Datenbank konnte nicht angesprochen werden</b>");
 
-// Verbindung zur Datenbank herstellen
-$db = mysqli_connect("localhost", "root", "");  // Datenbankverbindung herstellen: Hostname, Benutzername, Passwort (leer)
-
-mysqli_select_db($db, "projektaufgabe");  // Datenbank auswählen: Name der Datenbank
-
-// SQL-Abfrage zum Erstellen der Tabelle "problemforum"
+// SQL-Abfrage zum Erstellen der Tabelle "problemforum" (einschließlich der Spalte 'benachrichtigung_email')
 $query = "CREATE TABLE IF NOT EXISTS problemforum (
     problem_id INT AUTO_INCREMENT PRIMARY KEY,
     kategorie_id INT(1),
@@ -16,14 +14,19 @@ $query = "CREATE TABLE IF NOT EXISTS problemforum (
     uhrzeit VARCHAR(10),
     betreff VARCHAR(255),
     beitragstext TEXT,
-    antwort VARCHAR(10),
+    antwort VARCHAR(255),
+    bewertung VARCHAR(100),
+    benachrichtigung_email VARCHAR(255) -- Hinzugefügte Spalte für die E-Mail
+)";
+$query = "CREATE TABLE IF NOT EXISTS antworten (
+    antwort_id INT AUTO_INCREMENT PRIMARY KEY,
+    problem_id INT,
+    antwort_text TEXT,
     bewertung VARCHAR(100)
 )";
 
 // Tabelle erstellen
-mysqli_query($db, $query);  // SQL-Abfrage ausführen, um die Tabelle zu erstellen
+mysqli_query($db, $query) or die("<b>Fehler bei der Datenbankanfrage</b>");
 
-// Verbindung zur Datenbank schließen
 mysqli_close($db);
-
 ?>

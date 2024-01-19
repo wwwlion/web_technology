@@ -1,0 +1,80 @@
+/* Allgemeine Stile für Textfelder und Schaltflächen */
+textarea, input[type="text"], input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+/* Stil für den head-Abschnitt */
+head {
+    background-color: #007BFF; /* Hintergrundfarbe ändern */
+    color: #fff; /* Textfarbe ändern */
+    padding: 20px; /* Innenabstand ändern */
+    text-align: center; /* Textausrichtung ändern */
+    font-size: 24px; /* Schriftgröße ändern */
+    font-weight: bold; /* Schriftgewicht ändern */
+}
+
+
+/* Stil für das Antwort-Formular */
+.answer-content {
+    background-color: #f2f2f2;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Stil für Überschriften */
+h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333; /* Ändern Sie die Textfarbe des Titels */
+}
+
+/* Stil für Schaltflächen */
+input[type="submit"] {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+/* Stil für den Hauptcontainer */
+.main {
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Stil für das Menü */
+.menu a {
+    display: block;
+    padding: 10px 0;
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.menu a:hover {
+    background-color: #ccc;
+}
+
+/* Stil für den Inhalt */
+.content {
+    margin-top: 20px;
+}
+
+/* Fügen Sie hier weitere Stile hinzu, um das Erscheinungsbild anzupassen */

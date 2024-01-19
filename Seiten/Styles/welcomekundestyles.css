@@ -73,6 +73,18 @@ body {
     border-radius: 5px;
     transition: background-color 0.3s;
 }
+.content b {
+    display: block;
+    width: max-content;
+    margin: 20px auto;
+    padding: 10px;
+    background-color: #0f3460;
+    color: #ffffff;
+    text-align: center;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+
+}
 
 .content a:hover {
     background-color: #4ecca3;

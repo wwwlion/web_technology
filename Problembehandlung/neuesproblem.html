@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Neues Problem erstellen</title>
+    <link rel="stylesheet" href="../Seiten/Styles/styles_neuesproblem.css">
+    <style>
+        /* Fügt zusätzliches CSS für die Eingabefelder hinzu */
+        input[type="text"],
+        input[type="email"],
+        select,
+        textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+    </style>
+</head>
+<body>
+<div class="main">
+    <div class="menu">
+        <a href="../Login/login.php">Logout</a>
+        <a href="../Seiten/welcome_kunde.php">Forum</a>
+    </div>
+</div>
+<div class="content" style="font-family:arial">
+    <h2>Ihr Problem:</h2>
+    <form method="post" action="neuesproblem.php">
+        <table border="0">
+            <tr>
+                <td>Kategorie</td>
+                <td>
+                    <label for="kategorien"></label>
+                    <select name="kategorie" id="kategorien">
+                        <option value="0">Internet</option>
+                        <option value="1">Hardware</option>
+                        <option value="2">Software</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Betreff</td>
+                <td><input type="text" name="betreff"></td>
+            </tr>
+            <tr>
+                <td>Beschreibung</td>
+                <td><textarea name="problembeschreibung" cols="40" rows="5"></textarea></td>
+            </tr>
+            <tr>
+                <td>Email</td>
+                <td><input type="email" name="benachrichtigung_email"></td>
+            </tr>
+            <tr>
+                <td><input type="submit" value="Abschicken"></td>
+                <td><input type="reset" value="Eingaben zurücksetzen"></td>
+            </tr>
+        </table>
+    </form>
+
+    <!-- Bestätigungsdiv, das nach dem Absenden des Formulars angezeigt wird -->
+    <div id="confirmation" style="display: none;">
+        <p>Vielen Dank! Ihr Anliegen wurde erfolgreich eingereicht.</p>
+        <a href="../Seiten/welcome_kunde.php">Zurück zum Forum</a>
+    </div>
+</div>
+</body>
+</html>

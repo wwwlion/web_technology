@@ -30,7 +30,6 @@
 
 <div class="formular">
     <table border="0">
-
         <tr>
             <td>
                 <form method="get" action="loginlogic.php">
@@ -38,12 +37,11 @@
                     <input required type="text" id="username" name="name"> <br> <br>
                     <label for="password">Ihr Passwort:</label> <br> <!-- Eingabefeld für das Passwort -->
                     <input required type="password" id="password" name="passwort"> <br> <br>
-                    <label for="employeecheck">
-                        <select id="employeecheck" name="employeecheck">
-                            <option value="no">Kein Mitarbeiter</option>
-                            <option value="yes">Mitarbeiter</option>
-                        </select>
-                    </label>
+                    <label for="employeecheck">Ihr Status:</label> <br>
+                    <select id="employeecheck" name="employeecheck">
+                        <option value="0">Kein Mitarbeiter</option>
+                        <option value="1">Mitarbeiter</option>
+                    </select>
                     <br> <br>
                     <input type="submit" value="Login"> <!-- Login-Button -->
                 </form>

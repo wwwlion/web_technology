@@ -10,6 +10,7 @@ $anfrage = "CREATE TABLE member (
     memberusername VARCHAR(100),
     memberpassword VARCHAR(100),
     memberfirma VARCHAR(100),
+    memberemail VARCHAR(100),
     PRIMARY KEY (member_id)
 )";
 mysqli_query($db, $anfrage);
@@ -20,15 +21,6 @@ mysqli_query($db, $anfrage);
 
 mysqli_close($db);
 
-// Überprüfen, ob der Array-Schlüssel 'ar' in der GET-Anfrage definiert ist
-if (isset($_GET['ar'])) {
-    // SQL-Abfrage zur Auswahl von Daten aus der Tabelle "reisen"
-    $sql = "SELECT name, reisedauer FROM reisen";
-    $sql .= " WHERE reisedauer = '" . $_GET["ar"] . "'";
-} else {
-    // Fallback-Wert, wenn der Array-Schlüssel 'ar' nicht definiert ist
-    $sql = "SELECT name, reisedauer FROM reisen";
-}
 
 ?>
 
