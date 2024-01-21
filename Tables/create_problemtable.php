@@ -1,10 +1,12 @@
 <?php
-// Datenbankverbindung
+// Datenbankverbindung herstellen oder Fehlermeldung ausgeben
 $db = mysqli_connect("localhost", "root", "") or die("<b>Zur Zeit kein Connect zum Datenbankserver!</b>");
+
+// Datenbank auswählen oder Fehlermeldung ausgeben
 mysqli_select_db($db, "projektaufgabe") or die("<b>Datenbank konnte nicht angesprochen werden</b>");
 
-// SQL-Abfrage zum Erstellen der Tabelle "problemforum" (einschließlich der Spalte 'benachrichtigung_email')
-$query = "CREATE TABLE IF NOT EXISTS problemforum (
+// SQL-Abfrage zum Erstellen der Tabelle "problemforum"
+$queryProblemforum = "CREATE TABLE IF NOT EXISTS problemforum (
     problem_id INT AUTO_INCREMENT PRIMARY KEY,
     kategorie_id INT(1),
     bezugs_id INT,
@@ -16,17 +18,20 @@ $query = "CREATE TABLE IF NOT EXISTS problemforum (
     beitragstext TEXT,
     antwort VARCHAR(255),
     bewertung VARCHAR(100),
-    benachrichtigung_email VARCHAR(255) -- Hinzugefügte Spalte für die E-Mail
+    benachrichtigung_email VARCHAR(255)
 )";
-$query = "CREATE TABLE IF NOT EXISTS antworten (
+mysqli_query($db, $queryProblemforum) or die("<b>Fehler bei der Erstellung der Tabelle problemforum</b>");
+
+// SQL-Abfrage zum Erstellen der Tabelle "antworten"
+$queryAntworten = "CREATE TABLE IF NOT EXISTS antworten (
     antwort_id INT AUTO_INCREMENT PRIMARY KEY,
     problem_id INT,
     antwort_text TEXT,
+    user VARCHAR(50),
     bewertung VARCHAR(100)
 )";
+mysqli_query($db, $queryAntworten) or die("<b>Fehler bei der Erstellung der Tabelle antworten</b>");
 
-// Tabelle erstellen
-mysqli_query($db, $query) or die("<b>Fehler bei der Datenbankanfrage</b>");
-
+// Datenbankverbindung schließen
 mysqli_close($db);
 ?>

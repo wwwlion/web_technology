@@ -1,128 +1,139 @@
-/* styles_combined.css */
-
+/* Grundlegende Einstellungen für den gesamten Körper */
 body {
-    font-family: 'Gowun Dodum', sans-serif;
+    font-family: Arial, sans-serif;
+    background-color: #2a2a2a; /* Dunkelgrauer Hintergrund */
+    color: #ffffff; /* Weiße Schrift */
     margin: 0;
-    background-color: #f2f2f2;
+    padding: 0;
 }
 
-.main {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 5vh;
-    background: #333;
-    padding: 10px;
-    box-sizing: border-box;
-
-}
-.test {
-    display: flex;
-    justify-content: center;
-
-}
-.menu a {
-    margin-left: 10px;
-    color: #333;
-
-}
-
-.menu a:hover {
-    text-decoration: underline;
-}
-
-.sitename {
+/* Design für die Haupt-Navigation */
+.main .menu {
+    background-color: #1a1a2e; /* Dunkelblauer Hintergrund */
+    padding: 10px 20px;
     text-align: center;
 }
 
-.sitename h1 {
-    font-size: 2.5em;
+.main .menu a {
+    color: #e0e1dd; /* Helles Grau für Text */
+    text-decoration: none;
+    padding: 5px 10px;
+    margin: 0 5px;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+.main .menu a:hover {
+    background-color: #0f3460; /* Dunkleres Blau beim Hover */
+}
+
+/* Design für den Inhaltsteil */
+.content {
+    padding: 20px;
+    background-color: #16213e; /* Dunkles Blau für den Inhaltsbereich */
+    margin-top: 10px;
+    text-align: center; /* Zentrierung des Inhalts */
+}
+
+/* Stil für die Überschriften */
+.content h2 {
+    color: #e0e1dd;
+    margin-bottom: 20px;
+}
+
+/* Stil für die Kategorielinks */
+.katlinks a {
+    color: #4ecca3; /* Kontrastfarbe für Links */
+    text-decoration: none;
+    display: block;
+    margin: 10px 0;
+}
+
+.katlinks a:hover {
+    color: #0f3460;
+}
+
+/* Stil für Nachrichten und Lösungsvorschläge */
+.content p {
+    background-color: #0f3460; /* Dunkler Hintergrund für Absätze */
+    padding: 10px;
+    border-radius: 5px;
     margin-bottom: 10px;
 }
 
-.fehlertext {
-    text-align: center;
-}
-
-.fehler {
-    color: red;
-}
-
-.center-table {
+/* Design für den Link zum Erstellen neuer Probleme */
+.content a {
+    display: block;
+    width: max-content;
     margin: 20px auto;
-}
-
-.formular {
-    max-width: 200px;
-    text-align: center;
-    background: rgba(255, 255, 255, 0.8);
-    padding: 20px;
-    border-radius: 4px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    box-sizing: border-box;
-    margin: 0 auto;
-    justify-content: center;
-}
-
-.formular th {
-    font-size: 2em;
-    display: flex;
-    padding: 20px;
-    text-align: center;
-}
-
-.form-group {
-    margin-bottom: 15px;
-}
-
-.form-group label {
-    display: flex;
-    margin-bottom: 5px;
-    color: #333;
-}
-
-.form-group input[type="text"],
-.form-group input[type="password"],
-.form-group select {
-    width: 100%;
     padding: 10px;
-    margin-bottom: 10px;
-    border: 2px solid #ddd;
-    border-radius: 4px;
-    transition: border-color 0.3s ease;
-    box-sizing: border-box;
+    background-color: #0f3460;
+    color: #ffffff;
+    text-align: center;
+    border-radius: 5px;
+    transition: background-color 0.3s;
 }
-
-.form-group input[type="submit"] {
-    width: 100%;
+.content b {
+    display: block;
+    width: max-content;
+    margin: 20px auto;
     padding: 10px;
-    border: none;
-    border-radius: 4px;
-    background-color: #008080;
-    color: white;
-    cursor: pointer;
-    font-size: 16px;
-    transition: background-color 0.3s ease;
+    background-color: #0f3460;
+    color: #ffffff;
+    text-align: center;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+
 }
 
-.form-group input[type="submit"]:hover {
-    background-color: #006666;
+.content a:hover {
+    background-color: #4ecca3;
 }
 
-.input-radio {
-    margin-right: 5px;
-}
-
-.form-group input[type="text"]:focus,
-.form-group input[type="password"]:focus,
-.form-group select:focus {
-    border-color: #008080;
-    outline: none;
-    box-shadow: 0 0 5px rgba(0, 128, 128, 0.5);
-}
-
-@media (max-width: 768px) {
-    .main {
-        width: 95%;
+/* Responsivität (optional) */
+@media screen and (max-width: 600px) {
+    .main .menu a {
+        display: block;
+        margin-bottom: 10px;
     }
+
+    .content p, .content a {
+        width: 90%;
+    }
+}
+.problem-row {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    background-color: #0f3460;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 4px;
+}
+
+.problem-row:hover {
+    background-color: #4ecca3;
+    border-radius: 4px;
+}
+
+.delete-button {
+    background-color: darkred;
+    color: #ffffff;
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+    display: inline-list-item;
+    border-radius: 4px;
+}
+.answer-button {
+    background-color: forestgreen;
+    color: #ffffff;
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+    display: inline-list-item;
+    border-radius: 4px;
 }

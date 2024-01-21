@@ -1,34 +1,39 @@
 /* styles_combined.css */
 
 body {
-    font-family: 'Gowun Dodum', sans-serif;
+    font-family: Arial, sans-serif;
+    background-color: #2a2a2a; /* Dunkelgrauer Hintergrund */
+    color: #ffffff; /* Weiße Schrift */
     margin: 0;
-    background-color: #f2f2f2;
+    padding: 0;
 }
 
-.main {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 5vh;
-    background: #333;
-    padding: 10px;
-    box-sizing: border-box;
-
-}
-.test {
-    display: flex;
-    justify-content: center;
-
-}
-.menu a {
-    margin-left: 10px;
-    color: #f2f2f2;
-
+/* Design für die Haupt-Navigation */
+.main .menu {
+    background-color: #1a1a2e; /* Dunkelblauer Hintergrund */
+    padding: 10px 20px;
+    text-align: center;
 }
 
-.menu a:hover {
-    text-decoration: underline;
+.main .menu a {
+    color: #e0e1dd; /* Helles Grau für Text */
+    text-decoration: none;
+    padding: 5px 10px;
+    margin: 0 5px;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+.main .menu a:hover {
+    background-color: #4ecca3; /* Dunkleres Blau beim Hover */
+    border-radius: 4px;
+}
+
+/* Design für den Inhaltsteil */
+.content {
+    padding: 20px;
+    background-color: #16213e; /* Dunkles Blau für den Inhaltsbereich */
+    margin-top: 10px;
 }
 
 .sitename {
@@ -53,22 +58,29 @@ body {
 }
 
 .formular {
-    max-width: 200px;
+    max-width: 220px;
     text-align: center;
-    background: rgba(255, 255, 255, 0.8);
+    background: #0f3460;
     padding: 20px;
     border-radius: 4px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     box-sizing: border-box;
     margin: 0 auto;
     justify-content: center;
+    border-radius: 4px;
 }
-
+.select option{
+    padding: 5px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
 .formular th {
     font-size: 2em;
     display: flex;
     padding: 20px;
     text-align: center;
+    border-radius: 4px;
 }
 
 .form-group {
@@ -79,6 +91,8 @@ body {
     display: flex;
     margin-bottom: 5px;
     color: #333;
+    border-radius: 4px;
+
 }
 
 .form-group input[type="text"],
@@ -91,26 +105,7 @@ body {
     border-radius: 4px;
     transition: border-color 0.3s ease;
     box-sizing: border-box;
-}
-
-.form-group input[type="submit"] {
-    width: 100%;
-    padding: 10px;
-    border: none;
     border-radius: 4px;
-    background-color: #008080;
-    color: white;
-    cursor: pointer;
-    font-size: 16px;
-    transition: background-color 0.3s ease;
-}
-
-.form-group input[type="submit"]:hover {
-    background-color: #006666;
-}
-
-.input-radio {
-    margin-right: 5px;
 }
 
 .form-group input[type="text"]:focus,
@@ -119,6 +114,7 @@ body {
     border-color: #008080;
     outline: none;
     box-shadow: 0 0 5px rgba(0, 128, 128, 0.5);
+    border-radius: 4px;
 }
 
 @media (max-width: 768px) {

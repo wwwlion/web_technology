@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="styles_login.css">
+    <!-- Stil für die Schriftart -->
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Gowun+Dodum&display=swap');
+        .error-message {
+            display: none;
+            color: red;
+            /* Weitere Stile hier */
+        }
+    </style>
+    <script>
+        // JavaScript-Funktion zur Formularvalidierung
+        function validateForm() {
+            var username = document.forms["loginForm"]["name"].value;
+            var password = document.forms["loginForm"]["passwort"].value;
+            if (username === "" || password === "") {
+                alert("Benutzername und Passwort sind erforderlich.");
+                return false;
+            }
+            return true;
+        }
+
+        // JavaScript-Funktion zur Anzeige einer Fehlermeldung, falls der Login fehlschlägt
+        window.onload = function() {
+            const urlParams = new URLSearchParams(window.location.search);
+            const loginFailed = urlParams.get('f') === '1';
+            if (loginFailed) {
+                document.querySelector('.error-message').style.display = 'block';
+            }
+        };
+    </script>
+</head>
+<body>
+
+<div class="main">
+    <div class="menu">
+        <a href="../Index/index.html">Start</a>
+        <!-- <a href="../Register/register.html">Registrieren</a> -->
+    </div>
+</div>
+
+<div class="sitename">
+    <h1>Anmeldung</h1>
+</div>
+
+<div class="formular">
+    <!-- Fehlermeldung für den Fall, dass der Login fehlschlägt -->
+    <p class="error-message">Benutzername oder Passwort ist falsch oder wurde nicht gefunden!</p>
+    <table border="0">
+        <tr>
+            <td>
+                <!-- Formular zur Benutzereingabe mit Validierungsfunktion -->
+                <form name="loginForm" method="post" action="loginlogic.php" onsubmit="return validateForm()">
+                    <label for="username">Ihr Benutzername:</label> <br>
+                    <input required type="text" id="username" name="name"> <br> <br>
+                    <label for="password">Ihr Passwort:</label> <br>
+                    <input required type="password" id="password" name="passwort"> <br> <br>
+                    <label for="employeecheck">Ihr Status:</label> <br>
+                    <select id="employeecheck" name="employeecheck">
+                        <option value="0">Kein Mitarbeiter</option>
+                        <option value="1">Mitarbeiter</option>
+                    </select>
+                    <br> <br>
+                    <input type="submit" value="Login">
+                </form>
+            </td>
+        </tr>
+    </table>
+</div>
+
+</body>
+</html>

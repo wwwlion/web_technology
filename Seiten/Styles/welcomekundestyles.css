@@ -101,3 +101,39 @@ body {
         width: 90%;
     }
 }
+.problem-row {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    background-color: #0f3460;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 4px;
+}
+
+.problem-row:hover {
+    background-color: #4ecca3;
+    border-radius: 4px;
+}
+
+.delete-button {
+    background-color: darkred;
+    color: #ffffff;
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+    display: inline-list-item;
+    border-radius: 4px;
+}
+.answer-button {
+    background-color: forestgreen;
+    color: #ffffff;
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+    display: inline-list-item;
+    border-radius: 4px;
+}

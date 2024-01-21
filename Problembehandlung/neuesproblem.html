@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <title>Neues Problem erstellen</title>
     <link rel="stylesheet" href="../Seiten/Styles/styles_neuesproblem.css">
+    <!-- Stile für die Eingabefelder -->
     <style>
-        /* Fügt zusätzliches CSS für die Eingabefelder hinzu */
         input[type="text"],
         input[type="email"],
         select,
@@ -18,22 +18,37 @@
             box-sizing: border-box;
         }
     </style>
+    <script>
+        // JavaScript-Funktion zur Formularvalidierung
+        function validateForm() {
+            var betreff = document.forms["problemForm"]["betreff"].value;
+            var problembeschreibung = document.forms["problemForm"]["problembeschreibung"].value;
+            if (betreff === "" || problembeschreibung === "") {
+                alert("Betreff und Beschreibung sind erforderlich.");
+                return false;
+            }
+            return true;
+        }
+    </script>
 </head>
 <body>
 <div class="main">
     <div class="menu">
-        <a href="../Login/login.php">Logout</a>
+        <!-- Links zur Logout- und Forum-Seite -->
+        <a href="../Login/login.html">Logout</a>
         <a href="../Seiten/welcome_kunde.php">Forum</a>
     </div>
 </div>
 <div class="content" style="font-family:arial">
     <h2>Ihr Problem:</h2>
-    <form method="post" action="neuesproblem.php">
+    <!-- Formular zur Problemübermittlung mit Validierungsfunktion -->
+    <form name="problemForm" method="post" action="neuesproblem.php" onsubmit="return validateForm()">
         <table border="0">
             <tr>
                 <td>Kategorie</td>
                 <td>
                     <label for="kategorien"></label>
+                    <!-- Dropdown-Auswahl für die Kategorie -->
                     <select name="kategorie" id="kategorien">
                         <option value="0">Internet</option>
                         <option value="1">Hardware</option>
@@ -56,6 +71,7 @@
             <tr>
                 <td><input type="submit" value="Abschicken"></td>
                 <td><input type="reset" value="Eingaben zurücksetzen"></td>
+                <td><input type="file" value="Fileupload"></td>
             </tr>
         </table>
     </form>

@@ -1,7 +1,8 @@
 <?php
-
 // Verbindung zur Datenbank herstellen
 $db = mysqli_connect("localhost", "root", "");
+
+// Datenbank auswählen
 mysqli_select_db($db, "projektaufgabe");
 
 // Tabelle "member" erstellen
@@ -19,9 +20,8 @@ mysqli_query($db, $anfrage);
 $anfrage = "INSERT INTO member (memberusername, memberpassword, memberfirma) VALUES ('firstmember', 'testing' , 'testing')";
 mysqli_query($db, $anfrage);
 
+// Datenbankverbindung schließen
 mysqli_close($db);
-
-
 ?>
 
 <html>
@@ -34,6 +34,5 @@ mysqli_close($db);
     <input type="radio" name="ar" value="2"> <!-- Radio-Button mit dem Wert 2 -->
     <input type="submit" value="Abschicken"> <!-- Absenden-Button -->
 </form>
-
 </body>
 </html>

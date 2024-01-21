@@ -72,3 +72,90 @@ body {
         overflow-x: auto;
     }
 }
+/* Hintergrundfarbe für das Status-Dropdown-Menü ändern */
+.status-dropdown {
+    padding: 5px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* Farbzuordnung für Status */
+.status-dropdown.status-rot { background-color: red; }
+.status-dropdown.status-gelb { background-color: yellow; }
+.status-dropdown.status-gruen { background-color: green; }
+
+.status-dropdown option {
+    padding: 2px;
+}
+
+.action-button {
+    padding: 5px 10px;
+    background-color: #fff;
+    margin: 5px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.action-button:hover {
+    background-color: #fff;
+}
+
+/* Stil für das Antwort-Popup-Fenster */
+#answerModal {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ccc;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Stil für das Antwort-Formular im Popup */
+#answerModal form {
+    margin-top: 10px;
+}
+
+/* Stil für den Schließen-Button im Popup */
+.close-button {
+    background-color: #ccc;
+    color: #fff;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* Hinzugefügter CSS-Stil für das Antwort-Popup */
+#answerModal h3 {
+    color: #333;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+#answerModal textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+}
+
+#answerModal #submitAnswer {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+#answerModal #submitAnswer:hover {
+    background-color: #0056b3;
+}

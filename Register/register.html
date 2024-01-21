@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Register</title>
     <link rel="stylesheet" href="styles_register.css">
+    <!-- Stile für die Schriftart -->
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Gowun+Dodum&display=swap');
     </style>
@@ -14,25 +15,36 @@
 <div class="main">
     <div class="menu">
         <a href="../Index/index.html">Start</a>
-        <!--<a href="../Login/login.php">Login</a>--!>
+        <!-- Ein Link zum Start der Anwendung -->
+        <!-- <a href="../Login/login.html">Login</a> -->
+        <!-- (Auskommentiert) Ein Link zum Login, wenn Sie ihn später hinzufügen möchten -->
     </div>
 </div>
 
 <div class="sitename">
     <h1>Registrierung</h1>
+    <!-- Überschrift für die Registrierungsseite -->
 </div>
 
 <div class="formular">
     <table border="0">
         <tr>
             <td>
+                <!-- Registrierungsformular mit GET-Methode -->
                 <form method="get" action="registerlogic.php">
+                    <!-- Benutzername -->
                     <label for="username">Ihr Benutzername:</label> <br>
                     <input required type="text" id="username" name="name"> <br> <br>
+
+                    <!-- Passwort -->
                     <label for="password">Ihr Passwort:</label> <br>
                     <input required type="password" id="password" name="passwort"> <br> <br>
+
+                    <!-- Firmenname -->
                     <label for="firma">Ihre Firma:</label> <br>
                     <input required type="text" id="firma" name="firma"> <br> <br>
+
+                    <!-- Auswahl, ob Benutzer ein Mitarbeiter ist oder nicht -->
                     <label for="employeecheck">
                         <select id="employeecheck" name="employeecheck">
                             <option value="no">Kein Mitarbeiter</option>
@@ -40,6 +52,8 @@
                         </select>
                     </label>
                     <br> <br>
+
+                    <!-- Submit-Button zum Abschicken des Registrierungsformulars -->
                     <input type="submit" value="Registrieren">
                 </form>
             </td>

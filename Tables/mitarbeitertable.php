@@ -1,7 +1,11 @@
 <?php
+// Verbindung zur Datenbank herstellen
 $db = mysqli_connect("localhost", "root", "");
+
+// Datenbank auswählen
 mysqli_select_db($db, "projektaufgabe");
 
+// Tabelle "mitarbeiter" erstellen
 $anfrage = "CREATE TABLE mitarbeiter (
     employe_id INT NOT NULL AUTO_INCREMENT,
     empusername VARCHAR(100),
@@ -11,6 +15,8 @@ $anfrage = "CREATE TABLE mitarbeiter (
 )";
 
 mysqli_query($db, $anfrage);
+
+// Datenbankverbindung schließen
 mysqli_close($db);
 ?>
 
